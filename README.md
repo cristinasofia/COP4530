@@ -1,6 +1,12 @@
 # COP4530
 Data Structures and Algorithms
 
+# Description of Doublets
+This program creates a "word ladder" by selecting one word and transforming it, one letter at a time, into another word. Transformations are only valid iff the each word appears in a given word list.
+
+# Description of Cocktail Shaker Sort
+This program splits the search into a "forward" search and a "backward" search, doing each in "cocktail shaker" fashion. That is, it first finds all of the words one letter different from the "source" word, and all of the words one letter different from "target" word. Then finds all of the words two letters different from the "source" word, and then the words that are two letters different than the "target". At each word, it finishes when the other side has found the same word.
+
 ## Description of Sorting Algorithms
 A driver file is given, main.cc which expects to be linked against another file implementing a class called Sort, which implements an "out-of-place" sort using a "non-in-place" sort in an online fashion.
 
